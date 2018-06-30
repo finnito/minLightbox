@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/size/finnito/minLightbox/dist/minLightBox.js)
+JS: ![JS Size](https://img.shields.io/github/size/finnito/minLightbox/dist/minLightbox.js.svg) | CSS ![CSS Size](https://img.shields.io/github/size/finnito/minLightbox/dist/style.css.svg)
 
 # minLightbox
 A very lightweight and simple JS lightbox.
