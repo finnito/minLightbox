@@ -2,33 +2,22 @@
 A very lightweight and simple JS lightbox.
 
 ## Quick Start
-minBox in initialised with vanilla JS like so:
+Simply load the required files:
 ```
-<link href="/path/to/minSlider.css" rel="stylesheet">
-<script src="/path/to/minSlider.js"></script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  new minSlider({
-    "transitionSpeed": 300,
-    "slideDuration": 2000,
-    "autoplay": false,
-    "pauseOnHover": true,
-    "manualControls": true,
-  });
-});
-</script>
+<link href="/path/to/minLightBox.css" rel="stylesheet">
+<script src="/path/to/minLightBox.js"></script>
 ```
-and HTML like this:
+and mark up your HTML:
 ```
-<div class="slider">
-  <div class="slides">
-    <img src="cover.jpg" class="cover"/>
+<div>
+  <a href="slide-1.jpg" data-gallery="gallery-1"/>
     <img src="slide-1.jpg"/>
+  </a>
+  <a href="slide-2.jpg" data-gallery="gallery-1"/>
     <img src="slide-2.jpg"/>
+  </a>
+  <a href="slide-3.jpg" data-gallery="gallery-1"/>
     <img src="slide-3.jpg"/>
-  </div>
-  <span class="button prev"></span>
-  <span class="button next"></span>
+  </a>
 </div>
 ```
