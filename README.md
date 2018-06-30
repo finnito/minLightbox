@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/size/finnito/minLightbox/dist/minLightBox.js)
+
 # minLightbox
 A very lightweight and simple JS lightbox.
 
