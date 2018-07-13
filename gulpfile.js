@@ -5,8 +5,11 @@ gulp.task('build', function () {
     var sourcemaps   = require('gulp-sourcemaps');
     var autoprefixer = require('autoprefixer');
     var cssnano		 = require("cssnano");
+    var stylus 		 = require('gulp-stylus');
 
-    return gulp.src('./src/*.css')
+
+    return gulp.src('./src/*.stylus')
+    	.pipe(stylus())
         .pipe(sourcemaps.init())
         .pipe(postcss([ autoprefixer(), cssnano() ]))
         .pipe(sourcemaps.write('.'))
