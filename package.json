@@ -11,7 +11,7 @@
 		"babel-preset-env": "^1.7.0",
 		"babel-preset-minify": "^0.4.3",
 		"cssnano": "^3.10.0",
-		"gulp": "^3.9.1",
+		"gulp": "^4.0.2",
 		"gulp-postcss": "^7.0.1",
 		"gulp-stylus": "^2.7.0"
 	},
